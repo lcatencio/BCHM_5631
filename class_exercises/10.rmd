@@ -1,7 +1,7 @@
 ---
 title: "Genome Features as Ranges"
-author: "JR"
-date: "10/15/2021"
+author: "JR_LA"
+date: "4/27/2022"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -14,9 +14,9 @@ library(rtracklayer)
 library(tidyverse)
 library(ggpubr)
 library(Gviz)
-# source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/_setup.R")
-# source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/intersect_functions.R")
-# source("./scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/plotting_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/_setup.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/intersect_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/plotting_functions.R")
 ```
 
 ### Have you ever wanted to find overlaps between two lists of genes? Well
