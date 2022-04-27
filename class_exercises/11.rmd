@@ -1,8 +1,8 @@
 ---
 ---
 title: "11_R_functions"
-author: "JR"
-date: "10/20/2021"
+author: "JR_LA"
+date: "4/28/2022"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -13,13 +13,8 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(GenomicRanges)
-# source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/intersect_functions.R")
-# source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/class_functions.R")
-
-# source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/class_functions.R")
-
-source("/scratch/Shares/rinnclass/CLASS_2022/<your_folder>/CLASS_2022/util/intersect_functions.R")
-source("/scratch/Shares/rinnclass/CLASS_2022/<your_folder./CLASS_2022/util/class_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/intersect_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/class_functions.R")
 
 ```
 
@@ -68,7 +63,7 @@ fun <- function(x, y) {
   ans <- x * y
   return(ans)
 }
-source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/class_2022_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/class_2022_functions.R")
 
 # Let's make a util .R file and put this function in there
 # clear environment and load functions -- shows up as something you can just run now
@@ -393,15 +388,15 @@ create_consensus_peaks <- function(broadpeakfilepath = "/scratch/Shares/rinnclas
 
 ```{R source create_consensus_peaks}
 
-# First make sure create_consesnus_peaks is in you Util calss_functions.R file.
+# First make sure create_consesnus_peaks is in you Util class_functions.R file.
 # then source your util or just the functions file.
 
 # test to make sure it's ready
 # Copy lines 305-212 &  323-388 in util "class_functions.R"
 
-source("/scratch/Shares/rinnclass/CLASS_2022/<your_folder/CLASS_2022/util/class_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/class_functions.R")
 
-source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/class_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/class_functions.R")
 
 ```
 
@@ -416,8 +411,7 @@ source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/class_functions.
 library(tidyverse)
 library(GenomicRanges)
 
-# source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/intersect_functions.R")
-source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/class_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/class_functions.R")
 
 # run consensus peaks
 # consensus_peaks <- create_consensus_peaks("/scratch/Shares/rinnclass/CLASS_2022/data/peaks")
@@ -446,7 +440,7 @@ TEST EXAMPLE : CTCF under the hood of create_consensus_peaks
 # This how we would now run the function for all DBPs -- however let's step through one example
 
 # source("/scratch/Shares/rinnclass/CLASS_2022/JR/CLASS_2022/util/class_functions.R")
-source("/scratch/Shares/rinnclass/CLASS_2022/<your_folder>/CLASS_2022/util/class_functions.R")
+source("/scratch/Shares/rinnclass/CLASS_2022/latencio/BCHM_5631/util/class_functions.R")
 
 # create_consensus_peaks <- function(broadpeakfilepath = "/scratch/Shares/rinnclass/CLASS_2022/data/peaks/")
 
